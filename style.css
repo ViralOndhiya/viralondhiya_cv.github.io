@@ -1,0 +1,159 @@
+body{
+  /* background-color:#99b3ff; */
+  background-color: white;
+   font-family: Century Gothic;
+}
+h1.name {
+  color: #1c2642;  
+  font-size: 30px;
+  padding-left: 10px;
+  margin-top:0px;
+  margin-bottom: 5px;
+}
+
+h2.heading {
+  color: #000d33;  
+  font-size: 20px;  
+  padding-left: 10px;
+  padding-top:5px ;
+  
+}
+
+h3.subHeading {
+  color: black; 
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: normal;
+  margin-top:0px;
+  margin-bottom: 12px;
+}
+
+h3.subHeading1 {
+  color: #00cc00; 
+  font-size: 20px;
+  padding-left: 10px;  
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+th.detail {
+  color: black;  
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+td.detail {
+  color: black;  
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+p.detail {
+  color: black;  
+  padding-left: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+.left{
+  float: left;
+}
+.right{
+  padding-left: 550px;
+  float: right;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+  table th {
+    text-align: left;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* .column {
+  float: left;
+  width: 15.33%;
+  padding: 10px;
+  
+}*/
+
+/* Clear floats after image containers */
+/* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+ */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .img {
+    width: 100%;
+  }
+}
+
+/* img {
+  width: 15.33%;
+  padding: 10px;
+  height: auto;
+  float: left; 
+  max-width: 280px;
+} */
+img {width: 100%}
+div.polaroid {
+  width: 10%; 
+  background-color: white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+div.polaroidLandscap {
+  width:20%; 
+  background-color: white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  display: inline-block;
+  transform: rotate(0deg);
+}div.polaroidLandscapIphone {
+  width:12%; 
+  background-color: white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1px;
+  margin-left: 1px;
+  padding: 1px;
+  /* display: inline-block; */
+  transform: rotate(90deg);
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 0px;
+}
+
+div.polaroidForOneScreen {
+  width: 75%; 
+  background-color: white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  /* float: left;  */
+}
+
+div.polaroidForMarriage {
+  width: 40%; 
+  background-color: white ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  /* float: left;  */
+  display: inline-block;
+}
